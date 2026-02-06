@@ -37,15 +37,15 @@ function App() {
         <section className="min-h-screen flex items-center justify-center px-6 pt-20">
           <div className="container mx-auto max-w-4xl text-center">
             <div className="mb-10 animate-slide-up">
-              <div className="w-32 h-32 mx-auto mb-8 relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full animate-glow-pulse opacity-75"></div>
-               <div className="absolute inset-1 bg-gradient-to-br from-gray-800 to-gray-900 rounded-full flex items-center justify-center overflow-hidden">
+             <div className="w-32 h-32 mx-auto mb-8 relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full animate-glow-pulse opacity-75"></div>
+                <div className="absolute inset-1 bg-gradient-to-br from-gray-800 to-gray-900 rounded-full flex items-center justify-center overflow-hidden">
                   <img 
                     src="./profile.jpg" 
-                       alt="Yamin Einzali" 
+                      alt="Yamin Einzali" 
                         className="w-full h-full object-cover"
-                      />
-                    </div>
+                          />
+                  </div>
                 </div>
               </div>
             </div>
