@@ -305,7 +305,9 @@ function App() {
                         <p className="text-sm text-gray-400">Interactive Web Application</p>
                       </div>
                     </div>
-                    <ExternalLink className="text-gray-400 group-hover:text-pink-500 group-hover:scale-110 cursor-pointer transition-all duration-300" size={24} />
+                    <a href="https://love-calculator-app-three.vercel.app/" target="_blank" rel="noreferrer">
+                      <ExternalLink className="text-gray-400 hover:text-pink-500 cursor-pointer" size={24} />
+<                     /a>
                   </div>
 
                   <p className="text-gray-300 mb-6 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
