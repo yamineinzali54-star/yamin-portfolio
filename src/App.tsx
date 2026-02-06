@@ -41,8 +41,8 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full animate-glow-pulse opacity-75"></div>
                <div className="absolute inset-1 bg-gradient-to-br from-gray-800 to-gray-900 rounded-full flex items-center justify-center overflow-hidden">
                   <img 
-                    src="https://github.com/yamineinzali54-star/yamin-portfolio/blob/main/profile.jpg?raw=true" 
-                              alt="Yamin Einzali" 
+                    src="./profile.jpg" 
+                       alt="Yamin Einzali" 
                         className="w-full h-full object-cover"
                       />
                     </div>
