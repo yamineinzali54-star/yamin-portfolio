@@ -195,7 +195,7 @@ function App() {
                     </div>
                    <a href="https://github.com/yamineinzali54-star/my-ibs-app" target="_blank" rel="noreferrer">
                       <ExternalLink className="text-gray-400 hover:text-pink-500 cursor-pointer" size={24} />
-<                     </a>
+<                     /a>
                   </div>
 
                   <p className="text-gray-300 mb-6 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
