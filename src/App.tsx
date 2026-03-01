@@ -243,50 +243,49 @@ function App() {
                     <div className="flex items-center gap-3">
                       <div className="p-3 bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-lg group-hover:from-pink-500/40 group-hover:to-purple-500/40 transition-all duration-300">
                         <svg className="w-7 h-7 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bold group-hover:text-pink-400 transition-colors duration-300">Java Application Suite</h3>
-                        <p className="text-sm text-gray-400">Desktop Applications</p>
+                        <h3 className="text-2xl font-bold group-hover:text-pink-400 transition-colors duration-300">AI-Powered Coding Mentor</h3>
+                        <p className="text-sm text-gray-400">Intelligent Programming Assistant</p>
                       </div>
                     </div>
-                    <ExternalLink className="text-gray-400 group-hover:text-pink-500 group-hover:scale-110 cursor-pointer transition-all duration-300" size={24} />
+                    <a href="https://my-ai-app-ten-navy.vercel.app/" target="_blank" rel="noreferrer">
+                      <ExternalLink className="text-gray-400 hover:text-pink-500 cursor-pointer" size={24} />
+                    </a>
                   </div>
 
                   <p className="text-gray-300 mb-6 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
-                    A collection of Java applications including a Secret Diary with password protection and encryption,
-                    and an interactive Dice Game demonstrating object-oriented programming principles.
+                    An intelligent coding mentor built with JavaScript that provides real-time programming guidance using AI.
+                    This application helps developers learn and solve coding challenges with instant, context-aware assistance.
                   </p>
 
                   <div className="space-y-3 mb-6">
                     <div className="flex items-start gap-3 text-gray-300 group-hover:text-gray-200 transition-colors duration-300">
                       <Terminal className="text-pink-500 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" size={20} />
                       <div>
-                        <span className="font-semibold">Secret Diary:</span> Implemented file I/O, encryption, and authentication system for secure personal journaling.
+                        <span className="font-semibold">AI Integration:</span> Seamlessly integrated AI API to provide intelligent, real-time coding suggestions and explanations.
                       </div>
                     </div>
 
                     <div className="flex items-start gap-3 text-gray-300 group-hover:text-gray-200 transition-colors duration-300">
                       <GitBranch className="text-pink-500 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" size={20} />
                       <div>
-                        <span className="font-semibold">Dice Game:</span> Created interactive game logic with randomization and score tracking using Java collections.
+                        <span className="font-semibold">Interactive Interface:</span> Developed responsive UI with CSS for an engaging learning experience.
                       </div>
                     </div>
                   </div>
 
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-sm text-pink-400 group-hover:bg-pink-500/20 group-hover:border-pink-500/60 transition-all duration-300">
-                      Java
+                      JavaScript
                     </span>
                     <span className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-sm text-pink-400 group-hover:bg-pink-500/20 group-hover:border-pink-500/60 transition-all duration-300">
-                      OOP
+                      CSS
                     </span>
                     <span className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-sm text-pink-400 group-hover:bg-pink-500/20 group-hover:border-pink-500/60 transition-all duration-300">
-                      File I/O
-                    </span>
-                    <span className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-sm text-pink-400 group-hover:bg-pink-500/20 group-hover:border-pink-500/60 transition-all duration-300">
-                      Encryption
+                      AI API
                     </span>
                   </div>
                 </div>
@@ -298,51 +297,50 @@ function App() {
                   <div className="flex items-start justify-between mb-4">
                     <div className="flex items-center gap-3">
                       <div className="p-3 bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-lg group-hover:from-pink-500/40 group-hover:to-purple-500/40 transition-all duration-300">
-                        <Sparkles className="text-pink-500" size={28} />
+                        <svg className="w-7 h-7 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bold group-hover:text-pink-400 transition-colors duration-300">Love Calculator</h3>
-                        <p className="text-sm text-gray-400">Interactive Web Application</p>
+                        <h3 className="text-2xl font-bold group-hover:text-pink-400 transition-colors duration-300">Smart Expense Tracker</h3>
+                        <p className="text-sm text-gray-400">Professional Financial Tool</p>
                       </div>
                     </div>
-                    <a href="https://love-calculator-app-three.vercel.app/" target="_blank" rel="noreferrer">
+                    <a href="https://smart-tracker-6d35.vercel.app/" target="_blank" rel="noreferrer">
                       <ExternalLink className="text-gray-400 hover:text-pink-500 cursor-pointer" size={24} />
-<                     /a>
+                    </a>
                   </div>
 
                   <p className="text-gray-300 mb-6 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
-                    A fun and interactive love calculator that computes compatibility scores between two names.
-                    This project showcases skills in creating engaging user experiences with vanilla JavaScript.
+                    A professional financial tool for tracking expenses, developed with TypeScript to ensure robust logic and real-time calculations.
+                    This application helps users manage their finances with precision and clarity.
                   </p>
 
                   <div className="space-y-3 mb-6">
                     <div className="flex items-start gap-3 text-gray-300 group-hover:text-gray-200 transition-colors duration-300">
                       <Terminal className="text-pink-500 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" size={20} />
                       <div>
-                        <span className="font-semibold">JavaScript Objects & Arrays:</span> Implemented complex data structures to manage user inputs and calculation logic efficiently.
+                        <span className="font-semibold">TypeScript Architecture:</span> Built with TypeScript for type-safe code, ensuring reliability and maintainability in financial calculations.
                       </div>
                     </div>
 
                     <div className="flex items-start gap-3 text-gray-300 group-hover:text-gray-200 transition-colors duration-300">
                       <GitBranch className="text-pink-500 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" size={20} />
                       <div>
-                        <span className="font-semibold">Git Version Control:</span> Managed the entire project using GitHub with proper branching strategies and merge workflows.
+                        <span className="font-semibold">Real-Time Tracking:</span> Implemented dynamic expense tracking with instant updates and financial insights.
                       </div>
                     </div>
                   </div>
 
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-sm text-pink-400 group-hover:bg-pink-500/20 group-hover:border-pink-500/60 transition-all duration-300">
-                      JavaScript
+                      TypeScript
                     </span>
                     <span className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-sm text-pink-400 group-hover:bg-pink-500/20 group-hover:border-pink-500/60 transition-all duration-300">
-                      HTML/CSS
+                      HTML
                     </span>
                     <span className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-sm text-pink-400 group-hover:bg-pink-500/20 group-hover:border-pink-500/60 transition-all duration-300">
-                      GitHub
-                    </span>
-                    <span className="px-3 py-1 bg-pink-500/10 border border-pink-500/30 rounded-full text-sm text-pink-400 group-hover:bg-pink-500/20 group-hover:border-pink-500/60 transition-all duration-300">
-                      Git Branching
+                      CSS
                     </span>
                   </div>
                 </div>
