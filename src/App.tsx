@@ -83,7 +83,7 @@ function App() {
                 View My Projects
               </button>
               <a
-                href="https://drive.google.com/file/d/19T-zBbHFBIDtKAFxw7HqPzGo7EI4Cv0n/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1p4S6itEdpb8Udd0sM_nR3xYGohMIkFVa/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-gray-800 border border-pink-500/30 rounded-lg font-semibold hover:bg-gray-700 transition-all flex items-center gap-2"
