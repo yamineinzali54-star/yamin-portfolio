@@ -83,8 +83,9 @@ function App() {
                 View My Projects
               </button>
               <a
-                href="https://drive.google.com/file/d/19T-zBbHFBIDtKAFxw7HqPzGo7EI4Cv0n/view?usp=sharing"
-                download
+                href="https://drive.google.com/file/d/19T-zBbHFBIDtKAFxw7HqPzGo7EI4Cv0n/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-4 bg-gray-800 border border-pink-500/30 rounded-lg font-semibold hover:bg-gray-700 transition-all flex items-center gap-2"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
