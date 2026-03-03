@@ -371,7 +371,7 @@ function App() {
                 Email Me
               </a>
               <a
-                href="https://github.com/yamineinzali"
+                href="https://github.com/yamineinzali54-star"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 px-8 py-4 bg-gray-800 border border-pink-500/30 rounded-lg font-semibold hover:bg-gray-700 hover:border-pink-500/60 transition-all"
