@@ -194,7 +194,7 @@ function App() {
                         <p className="text-sm text-gray-400">Health Monitoring Application</p>
                       </div>
                     </div>
-                   <a href="https://my-ibs-app-tmlcm69tapc2tsnraq4eid.streamlit.app/" target="_blank" rel="noreferrer">
+                   <a href="https://my-ibs-tracker-9jx53wsphgp2nrp3qgfj72.streamlit.app/" target="_blank" rel="noreferrer">
                       <ExternalLink className="text-gray-400 hover:text-pink-500 cursor-pointer" size={24} />
 <                     /a>
                   </div>
