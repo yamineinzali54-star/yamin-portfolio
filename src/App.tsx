@@ -126,21 +126,6 @@ function App() {
                     from my physics background into creating elegant technical solutions.
                   </p>
                 </div>
-                <div className="flex gap-4 p-6 rounded-2xl bg-gray-800/50 border border-gray-700">
-  <div className="p-3 bg-pink-500/10 rounded-xl h-fit">
-    {/* Icon နေရာမှာ Laptop icon သုံးထားပါတယ် */}
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f472b6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="2" y1="20" x2="22" y2="20"></line></svg>
-  </div>
-  <div className="flex-1">
-    <h3 className="text-2xl font-bold mb-2 text-pink-400">Programming Basic Course</h3>
-    <p className="text-xl text-gray-300 mb-4">Fairway Technology</p>
-    <p className="text-gray-400 leading-relaxed">
-      Successfully completed foundational programming training, focusing on logic building, 
-      problem-solving strategies, and core programming concepts that sparked my journey into 
-      full-stack development.
-    </p>
-  </div>
-</div>
               </div>
             </div>
           </div>
