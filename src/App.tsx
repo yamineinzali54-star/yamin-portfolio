@@ -18,7 +18,7 @@ function App() {
           </div>
           <div className="flex gap-6">
             <button onClick={() => scrollToSection('about')} className="hover:text-pink-500 transition-colors">
-              About
+              Education
             </button>
             <button onClick={() => scrollToSection('skills')} className="hover:text-pink-500 transition-colors">
               Skills
@@ -101,30 +101,82 @@ function App() {
           <div className="container mx-auto max-w-4xl">
             <h2 className="text-4xl font-bold mb-4 text-center animate-slide-up">
               <span className="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
-                About Me
+                Education
               </span>
             </h2>
             <p className="text-gray-400 text-center mb-12 animate-slide-up" style={{ animationDelay: '0.1s' }}>
-              My background and education
+              My academic background and certifications
             </p>
 
-            <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-pink-500/30 rounded-2xl p-8 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-              <div className="flex items-start gap-6">
-                <div className="p-4 bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-xl">
-                  <svg className="w-12 h-12 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-                  </svg>
+            <div className="space-y-6">
+              <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-pink-500/30 rounded-2xl p-8 animate-slide-up" style={{ animationDelay: '0.2s' }}>
+                <div className="flex items-start gap-6">
+                  <div className="p-4 bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-xl">
+                    <svg className="w-12 h-12 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold mb-2 text-pink-400">Bachelor of Science (Honours in Physics)</h3>
+                    <p className="text-xl text-gray-300 mb-4">Pathein University</p>
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-pink-500 to-purple-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-pink-500/50 transition-all transform hover:scale-105"
+                    >
+                      <ExternalLink size={16} />
+                      View Certificate
+                    </a>
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-2xl font-bold mb-2 text-pink-400">Master of Science (Physics)</h3>
-                  <p className="text-xl text-gray-300 mb-4">Pathein University</p>
-                  <p className="text-gray-400 leading-relaxed">
-                    Currently pursuing my Master's degree in Physics, combining scientific knowledge with
-                    a passion for web development. I bring analytical thinking and problem-solving skills
-                    from my physics background into creating elegant technical solutions.
-                  </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-pink-500/30 rounded-2xl p-8 animate-slide-up" style={{ animationDelay: '0.3s' }}>
+                <div className="flex items-start gap-6">
+                  <div className="p-4 bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-xl">
+                    <svg className="w-12 h-12 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold mb-2 text-pink-400">Master of Science (Physics)</h3>
+                    <p className="text-xl text-gray-300 mb-4">Pathein University</p>
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-pink-500 to-purple-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-pink-500/50 transition-all transform hover:scale-105"
+                    >
+                      <ExternalLink size={16} />
+                      View Certificate
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-pink-500/30 rounded-2xl p-8 animate-slide-up" style={{ animationDelay: '0.4s' }}>
+                <div className="flex items-start gap-6">
+                  <div className="p-4 bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-xl">
+                    <Code2 className="w-12 h-12 text-pink-500" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold mb-2 text-pink-400">Programming Basic Course</h3>
+                    <p className="text-xl text-gray-300 mb-4">Fairway Technology</p>
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-pink-500 to-purple-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-pink-500/50 transition-all transform hover:scale-105"
+                    >
+                      <ExternalLink size={16} />
+                      View Certificate
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
