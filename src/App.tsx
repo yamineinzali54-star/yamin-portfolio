@@ -122,7 +122,7 @@ function App() {
                     <h3 className="text-2xl font-bold mb-2 text-pink-400">Bachelor of Science (Honours in Physics)</h3>
                     <p className="text-xl text-gray-300 mb-4">Pathein University</p>
                     <a
-                      href="#"
+                      href="https://drive.google.com/file/d/1tkYJFH9QufuuTqDeWVyRmdsv9H68npVC/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-pink-500 to-purple-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-pink-500/50 transition-all transform hover:scale-105"
